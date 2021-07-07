@@ -75,9 +75,8 @@ const Home = () => {
         <SEO config={SEOConfig} />
         {/* https://resources.daoedu.tw/media/2021/02/118222653_116618533489352_6821261858468995250_o.jpg */}
       </Head>
-      <Navigation>
-        nav
-      </Navigation>
+      <Navigation />
+
       <PageContainer>
         <div className={css`
           display: flex;
