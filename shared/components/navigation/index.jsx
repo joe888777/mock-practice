@@ -11,6 +11,7 @@ const nav_style = css`
 `;
 const ul_style = css`
   display:flex;
+  flex-wrap:wrap;
   & > li{
     margin-right:20px;
      > span {
@@ -18,13 +19,17 @@ const ul_style = css`
       > a{
         color:rgba(255,255,255,0.7);
         text-decoration:none;
+        white-space:no-wrap;
+        &:hover{
+          color:#fff;
+        }
         }
       > button{
         background:unset;
         border:none;
         color:rgba(255,255,255,0.7);
       }
-      }
+    }
   }
 `;
 const Arrow = () => {
